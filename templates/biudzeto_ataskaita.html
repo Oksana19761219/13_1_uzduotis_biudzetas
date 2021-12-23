@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<a href = "\">Grįžti į pradžią</a>
+<br>
+<br>
+<h3>Biudžeto ataskaita</h3>
+<h4>Pajamos:</h4>
+{%for irasas in pajamos%}
+ <p>{{irasas}}</p>
+{% endfor %}
+<br>
+<h4>Išlaidos:</h4>
+{%for irasas in islaidos%}
+ <p>{{irasas}}</p>
+{% endfor %}
+
+
+</body>
+</html>
